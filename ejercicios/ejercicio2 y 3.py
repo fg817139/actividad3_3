@@ -2,6 +2,11 @@ import math
 from ejercicio2 import Punto
 
 class Punto:
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
     def mostrar(self):
         print(f"({self.x}, {self.y})")
 
